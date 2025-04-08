@@ -7,8 +7,8 @@ import re
 from docx import Document
 
 # Set up Streamlit app
-st.set_page_config(page_title="SkillSync", page_icon="🛠️", layout="wide")
-st.title("🛠️ SkillSync: Your Resume & Career Companion 💼")
+st.set_page_config(page_title="Resume Match", page_icon="🛠️", layout="wide")
+st.title(" Your Resume & Career Companion 💼")
 
 # Mapped terms for short forms
 KEYWORD_MAPPINGS = {
