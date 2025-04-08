@@ -1029,72 +1029,7 @@ elif page == "Sample JD and Resume 📄":
             mime="text/plain",
         )
 
-    st.subheader("Sample Resume")
-    st.write("""
-    **XXX**  
-    Address: XXX, City, State, XXXXX  
-    Email: xxx@example.com | Phone: +XX XXXXXXX  
-
-    **Skills:**  
-    - **Technical Skills:** Python | Machine Learning | Data Science | Exploratory Data Analysis (EDA) | Natural Language Processing (NLP)  
-    - **Tools:** Streamlit | Microsoft Office Suite (Excel, Word, PowerPoint) | Pandas | Scikit-Learn | GitHub | Power BI | OpenCV | NLTK  
-    - **Soft Skills:** Problem Solving | Communication | Time Management | Analytical Thinking | Critical Thinking  
-
-    **Experience:**  
-    - **Data Science Intern**  
-      Codsoft | May 2024  
-      Architected dynamic web applications using Python and Streamlit, transformed more than 7 complex datasets into actionable insights and boosted prediction accuracy to over 95% for enhanced decision-making. Utilized Seaborn and Matplotlib to create 5 plus interactive dashboards, enhancing data visualization and insights.  
-
-    - **Data Segmentation Intern**  
-      PTA, Directorate of Public Instruction (DPI), Government of Tamil Nadu | Dec 2023 – Jan 2024  
-      Automated and streamlined data segmentation processes using Python and algorithms on over 500,000 continuous records across 50 fields, reducing processing time by over 97%, and saving more than 20 hours per week. Collaborated with DPI teams to implement data-driven strategies for educational initiatives.  
-
-    - **Author**  
-      Kindle Direct Publishing | Feb 2023 – Aug 2023  
-      Authored and published engaging eBooks on emerging technologies and trending concepts, selling over 55 copies of eBooks. Integrated AI-generated insights and data points using NLP techniques to enrich content, publishing 4 books with over 12 chapters each.  
-
-    - **Data Science Intern**  
-      Institution of Electronics and Telecommunication Engineers | Jun 2023 – Jul 2023  
-      Engineered real-time data science applications with dynamic Power BI dashboards and advanced Scikit-Learn models, crafting over 10 visualizations for 4 different applications. Formulated and deployed text and image processing techniques using TensorFlow and OpenCV.  
-
-    - **Content Creator**  
-      YouTube | Jan 2023 – May 2023  
-      Created and unveiled engaging content on trending technologies and their practical applications. Educated over 350 viewers on Python programming, simplifying complex concepts through clear and concise tutorials.  
-
-    **Education:**  
-    - Bachelor of Computer Applications (BCA) in Data Science  
-      SRM Institute of Science and Technology | 2022 – 2025  
-      - CGPA: 9.79  
-      - Relevant Coursework: Machine Learning, Data Science, Natural Language Processing, Artificial Intelligence, Computer Vision, Statistics, Data Engineering, Intelligent Automation, Data Analytics  
-
-    **Projects:**  
-    - **Vision Wizard (June 2024):**  
-      Designed Vision Wizard, a drag-and-drop platform reducing pre-processing time by 80%, enabling users with zero programming knowledge to perform more than 12 computer vision tasks using advanced tools and techniques.  
-
-    - **TextTrac (May 2024):**  
-      Orchestrated NLP tools to perform 13 plus NLP preprocessing tasks with a single click, reducing normalization time by 95%, and enhancing data-driven decision-making through advanced text manipulation and analysis.  
-
-    - **AI Hub (Nov 2023 – Feb 2024):**  
-      Developed AutoDS and AutoNLP solutions, enabling zero-coding, cutting processing time by 70%, and broadening access to over 31 data operations. Revolutionized data processes and democratized advanced analysis and natural language processing.  
-
-    **Certifications:**  
-    - Completed over 30 professional certifications from Coursera, Cisco, NPTEL, Google Skillshop, and other platforms, including:  
-      - IBM Data Science Professional Certification | Coursera | August 30, 2023  
-      - The Joy of Computing using Python (IIT Madras) | NPTEL | May 31, 2023  
-
-    **Achievements:**  
-    - Won 2nd prize in the 2024 Project Day for the AI Hub project, hosted by SRM Group.  
-    - Received a Silver Medal in the 2024 Research Day for the AI Trinity research work, hosted by SRM IST.  
-    """)
    
-    # Usage in Streamlit for DOCX
-    docx_buffer = create_sample_resume_docx()
-    st.download_button(
-        label="📥 Download Sample Resume (DOCX)",
-        data=docx_buffer,
-        file_name="sample_resume.docx",
-        mime="application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-    )
 
     
     st.subheader("How to Use:")
